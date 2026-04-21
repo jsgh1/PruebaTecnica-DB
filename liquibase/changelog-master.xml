@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd">
+    <include file="changelogs/000_extensions.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/01_geography_and_reference_data.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/02_airline.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/03_identity.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/04_security.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/05_customer_and_loyalty.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/06_airport.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/07_aircraft.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/08_flight_operations.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/09_sales_reservation_ticketing.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/10_boarding.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/11_payment.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/12_billing.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/013_baggage_incidents.xml" relativeToChangelogFile="true"/>
+    <include file="changelogs/099_comments.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>
