@@ -1,0 +1,7 @@
+CREATE INDEX idx_baggage_incident_baggage_id ON baggage_incident(baggage_id);
+CREATE INDEX idx_baggage_incident_airport_id ON baggage_incident(airport_id);
+CREATE INDEX idx_baggage_incident_customer_id ON baggage_incident(reported_by_customer_id);
+CREATE INDEX idx_baggage_incident_status_id ON baggage_incident(baggage_incident_status_id);
+CREATE INDEX idx_baggage_incident_type_id ON baggage_incident(baggage_incident_type_id);
+CREATE INDEX idx_baggage_incident_event_incident_id ON baggage_incident_event(baggage_incident_id);
+CREATE INDEX idx_baggage_incident_event_recorded_by_user_id ON baggage_incident_event(recorded_by_user_id);

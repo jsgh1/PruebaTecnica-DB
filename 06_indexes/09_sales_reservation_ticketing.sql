@@ -1,0 +1,12 @@
+CREATE INDEX idx_fare_class_cabin_class_id ON fare_class(cabin_class_id);
+CREATE INDEX idx_fare_airline_id ON fare(airline_id);
+CREATE INDEX idx_reservation_status_id ON reservation(reservation_status_id);
+CREATE INDEX idx_reservation_booked_by_customer_id ON reservation(booked_by_customer_id);
+CREATE INDEX idx_reservation_passenger_person_id ON reservation_passenger(person_id);
+CREATE INDEX idx_sale_reservation_id ON sale(reservation_id);
+CREATE INDEX idx_ticket_sale_id ON ticket(sale_id);
+CREATE INDEX idx_ticket_reservation_passenger_id ON ticket(reservation_passenger_id);
+CREATE INDEX idx_ticket_segment_ticket_id ON ticket_segment(ticket_id);
+CREATE INDEX idx_ticket_segment_flight_segment_id ON ticket_segment(flight_segment_id);
+CREATE INDEX idx_seat_assignment_aircraft_seat_id ON seat_assignment(aircraft_seat_id);
+CREATE INDEX idx_baggage_ticket_segment_id ON baggage(ticket_segment_id);

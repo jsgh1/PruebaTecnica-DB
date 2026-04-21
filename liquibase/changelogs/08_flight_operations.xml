@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd">
+    <changeSet id="08_flight_operations" author="assistant">
+        <sqlFile path="../../01_tables/08_flight_operations.sql" relativeToChangelogFile="true" splitStatements="true" stripComments="false"/>
+        <sqlFile path="../../06_indexes/08_flight_operations.sql" relativeToChangelogFile="true" splitStatements="true" stripComments="false"/>
+    </changeSet>
+</databaseChangeLog>
