@@ -1,0 +1,1 @@
+-- Sin indices adicionales en la linea base para este dominio.
